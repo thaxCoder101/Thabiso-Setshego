@@ -1,0 +1,32 @@
+{
+  "info": {
+    "name": "API Testing Collection"
+  },
+  "item": [
+    {
+      "name": "Get Users",
+      "request": {
+        "method": "GET",
+        "url": "https://jsonplaceholder.typicode.com/users"
+      }
+    },
+    {
+      "name": "Get Single User",
+      "request": {
+        "method": "GET",
+        "url": "https://jsonplaceholder.typicode.com/users/1"
+      }
+    },
+    {
+      "name": "Create User",
+      "request": {
+        "method": "POST",
+        "url": "https://jsonplaceholder.typicode.com/users",
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\": \"Thabiso\"}"
+        }
+      }
+    }
+  ]
+}
